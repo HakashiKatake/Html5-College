@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Day 4 - OL UL</title>
+    <style>
+        body {
+            background-color: #60BFF5;
+            margin: 0;
+            color: black;
+            text-align: center;
+        }
+        header {
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            margin-top: 20px;
+        }
+        .square {
+            list-style-type: square;
+            padding: 0;
+        }
+        .circle {
+            list-style-type: circle;
+            padding: 0;
+        }
+
+        ul.a {
+            list-style-type: circle;
+        }
+
+        ul.b {
+            list-style-type: square;
+        }
+
+        ol.c {
+        list-style-type: upper-roman;
+        }
+
+        ol.d {
+        list-style-type: lower-alpha;
+        }
+     
+    </style>
+</head>
+
+<body>
+    <header>OL + UL Tag Names</header>
+    
+    <div class="container">
+        <ul>
+            <li>Saurabh Yadav</li>
+            <li>Sahil Shah</li>
+            <li>Hitarth Patel</li>
+            <li>Ayush Jha</li>
+        </ul>
+        <ol>
+            <li>Roll no - 1</li>
+            <li>Roll no - 2</li>
+            <li>Roll no - 3</li>
+            <li>Roll no - 4</li>
+        </ol>
+    </div>
+
+    <div class="container">
+        <ul class="square">
+            <li>Saurabh Yadav</li>
+            <li>Sahil Shah</li>
+            <li>Hitarth Patel</li>
+            <li>Ayush Jha</li>
+        </ul>
+        <ol>
+            <li>Roll no - 1</li>
+            <li>Roll no - 2</li>
+            <li>Roll no - 3</li>
+            <li>Roll no - 4</li>
+        </ol>
+    </div>
+
+    <div class="container">
+        <ul class="circle">
+            <li>Saurabh Yadav</li>
+            <li>Sahil Shah</li>
+            <li>Hitarth Patel</li>
+            <li>Ayush Jha</li>
+        </ul>
+        <ol>
+            <li>Roll no - 1</li>
+            <li>Roll no - 2</li>
+            <li>Roll no - 3</li>
+            <li>Roll no - 4</li>
+        </ol>
+    </div>
+
+    <div class="container">
+        <ul >
+            <li>Saurabh Yadav</li>
+            <li>Sahil Shah</li>
+            <li>Hitarth Patel</li>
+            <li>Ayush Jha</li>
+        </ul>
+        <ol start="3">
+            <li>Roll no - 1</li>
+            <li>Roll no - 2</li>
+            <li>Roll no - 3</li>
+            <li>Roll no - 4</li>
+        </ol>
+    </div>
+
+    <h1>Practice - 1</h1>
+    
+    <div class="container">
+        
+    <ul style="list-style-type: circle;">
+        <li>Apples</li>
+        <li>Bananas</li>
+        <li>Cherries</li>
+    </ul>
+    </div>
+    
+    <h1>Practice - 2</h1>
+    <div class="container">
+        <ol type="1">
+            <li>Wake up</li>
+            <li>Brush teeth</li>
+            <li>Eat breakfast</li>
+          </ol>
+          
+    </div>
+
+    <h1>Practice - 3</h1>
+    <div class="container">
+        <ol start="10">
+            <li>Fifth</li>
+            <li>Sixth</li>
+            <li>Seventh</li>
+          </ol>
+          
+    </div>
+
+    <h1>Practice - 4</h1>
+    <div class="container">
+        <ul>
+            <li>Fruits
+              <ul>
+                <li>Apple</li>
+                <ul>
+                    <li>Mango</li>
+                </ul>
+                
+              </ul>
+            </li>
+            <li>Vegetables</li>
+          </ul>
+          
+    </div>
+
+    <h1>Practice - 5</h1>
+    <div class="container">
+        <ul>
+            <li>Shopping List
+              <ol>
+                <li>Milk</li>
+                <li>Bread</li>
+              </ol>
+            </li>
+            <li>Exercise</li>
+        </ul>
+          
+    </div>
+
+    <h1>Practice - 6</h1>
+    <div class="container">
+        <ul style="list-style-type: none;">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+
+        <ol style="list-style-type: circle;">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ol>
+          
+    </div>
+
+    <h1>Practice - 7</h1>
+    <div class="container">
+        <ol reversed start="10">
+            <li>Third</li>
+            <li>Second</li>
+            <li>First</li>
+         </ol>
+          
+    </div>
+
+    <h1>Practice - 8</h1>
+    <div class="container">
+        <ol type="a">
+            <li>Plan</li>
+            <li>Design</li>
+            <li>Develop</li>
+            <li>Deploy</li>
+          </ol>
+        
+        </div>
+
+    <h1>Practice - 9</h1>
+    <div class="container">
+        <ul style="list-style: none; display: flex; gap: 20px;">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          
+    </div>
+
+    <h1>Practice - 10</h1>
+    <div class="container">
+        <ul style="list-style: none;">
+            <li>&#10003; Buy groceries</li>
+            <li>&#10003; Finish homework</li>
+            <li>&#9633; Clean room</li>
+        </ul>
+    </div>
+      
+
+    <h1>Practice - 11</h1>
+    <div class="container">
+        <ul style="columns: 3; -webkit-columns: 3; -moz-columns: 3;">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
+            <li>Python</li>
+            <li>Java</li>
+            <li>C++</li>
+          </ul>
+          
+    </div>
+
+    <h1>Practice - 12</h1>
+    <div class="container">
+        <ol style="list-style-position: inside; padding-left: 0px;">
+            <li>2000 - Born</li>
+            <li>2018 - Graduated High School</li>
+            <li>2022 - Finished College</li>
+          </ol>
+          
+    </div>
+
+    <h1>Practice - 13</h1>
+    <div class="container">
+        <ul style="list-style: none; display: flex; gap: 10px;">
+            <li style="background: #893535; padding: 5px 10px; border-radius: 5px;">HTML</li>
+            <li style="background: #89d00f; padding: 5px 10px; border-radius: 5px;">CSS</li>
+            <li style="background: #1e7795; padding: 5px 10px; border-radius: 5px;">JavaScript</li>
+          </ul>
+          
+    </div>
+
+    <h1>Practice - 14</h1>
+    <div class="container">
+        <ol>
+            <li>🔍 Research</li>
+            <li>✍️ Write</li>
+            <li>🧪 Test</li>
+            <li>🚀 Launch</li>
+          </ol>
+          
+    </div>
+
+    <h1>Practice - 15</h1>
+    <div class="container">
+        <ul style="list-style-image: url('https://cdn-icons-png.flaticon.com/16/1828/1828817.png');"></ul>
+            <li>News</li>
+            <li>Blog</li>
+            <li>Tutorials</li>
+          </ul>
+          
+    </div>
+
+    <h1>Practice - 16</h1>
+    <p>Which city is the capital of France?</p>
+    <div class="container">
+        
+        <ol type="A">
+            <li>Paris</li>
+            <li>London</li>
+            <li>Berlin</li>
+            <li>Madrid</li>
+        </ol>
+    
+        
+    </div>
+        
+          
+    </div>
+</body>
+</html>
