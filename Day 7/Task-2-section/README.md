@@ -1,4 +1,4 @@
-# Day 7 - Task 2 Section
+d# Day 7 - Task 2 Section
 
 https://hakashikatake.github.io/Html5-College/Day%207/Task-2-section/index.html
 
